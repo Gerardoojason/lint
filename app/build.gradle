@@ -16,6 +16,7 @@ android {
         }
     }
     compileSdk 32
+    buildToolsVersion "30.0.2"
     lint {
         disable 'TypographyFractions','TypographyQuotes','ObsoleteSdkInt'
         enable 'RtlHardcoded','RtlCompat', 'RtlEnabled'
